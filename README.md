@@ -1,4 +1,4 @@
-# Airport Controller
+# Airport Challenge
   ==================
 
 ```
@@ -18,6 +18,8 @@
 The purpose of this project was to create a program to control the flow of planes at an airport. The planes can land and take off provided that the weather is sunny, although occasionally it may be stormy, in which case no planes can land or take off. The program also needs to ensure against edge cases such as; planes only being able to take off from airports they are in; planes already flying cannot take off or be in an airport; and planes that are landed cannot land again.
 
 ## User Stories
+
+```
   1.  As an air traffic controller,
       So I can get passengers to a destination,
       I want to instruct a plane to land at an airport
@@ -41,12 +43,13 @@ The purpose of this project was to create a program to control the flow of plane
   6.  As an air traffic controller
       To ensure safety
       I want to prevent landing when weather is stormy
+```
 
 ## Getting Started
 
 Clone the repository from GitHub:
 ```
-$ git clone ...
+$ git clone https://github.com/PiperS52/airport_challenge_JavaScript.git
 $ cd airport-challenge_JavaScript
 ```
 Create a new instance in the console:
